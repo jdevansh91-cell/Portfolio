@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devansh Jaiswal | AI Developer & BCA Student</title>
+    <meta name="description" content="Portfolio of Devansh Jaiswal, an AI Developer studying BCA Artificial Intelligence at Jain University.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="noise"></div>
+    <div id="glow-cursor"></div>
+
+    <header>
+        <nav>
+            <div class="logo">HI I Am <span>Devansh</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn-primary">Contact Me</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero fade-in-section">
+            <div class="hero-content">
+                <p class="greeting">Hello, world! I am</p>
+                <h1>Devansh Jaiswal</h1>
+                <h2 class="typewriter-container">
+                    <span id="typewriter"></span><span class="cursor">|</span>
+                </h2>
+                <p class="bio">BCA Artificial Intelligence student at Jain University. Passionate about building intelligent systems and modern web applications.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="#contact" class="btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="glow-ring"></div>
+                <img src="assets/images/profile.png" alt="Devansh Jaiswal Profile" class="hero-image">
+            </div>
+        </section>
+
+        <section id="about" class="fade-in-section">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-content glass-card">
+                <p>I am a highly motivated student pursuing a <strong>BCA in Artificial Intelligence at Jain University</strong>. My journey in tech is driven by a profound fascination with how data and algorithms can solve complex real-world problems.</p>
+                <p>When I'm not training models or debugging code, I enjoy staying updated with the latest advancements in AI research, exploring new frameworks, and contributing to open-source projects.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>AI/ML</h3>
+                        <p>Core Focus</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>Jain University</h3>
+                        <p>Education</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>Full Stack</h3>
+                        <p>Web Capabilities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="fade-in-section">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <div class="line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category glass-card">
+                    <h3>Artificial Intelligence</h3>
+                    <ul class="skill-list">
+                        <li>Machine Learning</li>
+                        <li>Neural Networks</li>
+                        <li>TensorFlow / PyTorch</li>
+                        <li>Data Science & Analytics</li>
+                        <li>Natural Language Processing</li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3>Programming</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>JavaScript / TypeScript</li>
+                        <li>C / C++</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3>Web Development</h3>
+                    <ul class="skill-list">
+                        <li>HTML5 & CSS3</li>
+                        <li>React.js / Next.js</li>
+                        <li>Node.js / Express</li>
+                        <li>RESTful APIs</li>
+                        <li>Database Design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="fade-in-section">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="line"></div>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card glass-card">
+                    <div class="project-image">
+                        <img src="assets/images/project1.png" alt="Neural Network Visualization">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-icon">GitHub</a>
+                            <a href="#" class="btn-icon">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Computer Vision</span>
+                        </div>
+                        <h3>Deep Learning Image Classifier</h3>
+                        <p>A highly accurate convolutional neural network model trained to classify complex images. Implemented data augmentation and transfer learning techniques.</p>
+                    </div>
+                </article>
+                <article class="project-card glass-card">
+                    <div class="project-image">
+                        <img src="assets/images/project2.png" alt="Data Analytics Dashboard">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-icon">GitHub</a>
+                            <a href="#" class="btn-icon">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>D3.js</span>
+                            <span>REST API</span>
+                        </div>
+                        <h3>AI-Driven Analytics Dashboard</h3>
+                        <p>A modern web application providing real-time data insights powered by predictive analytics. Features interactive charts and a fully responsive dark-mode UI.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="fade-in-section">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="line"></div>
+            </div>
+            <div class="contact-container glass-card">
+                <div class="contact-text">
+                    <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                    <div class="contact-links">
+                        <a href="mailto:devansh@example.com" class="contact-link">📧 devansh@example.com</a>
+                        <a href="#" class="contact-link">🔗 LinkedIn</a>
+                        <a href="#" class="contact-link">🐙 GitHub</a>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Devansh Jaiswal. Designed with Artificial Intelligence & Vanilla Web Tech.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
